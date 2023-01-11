@@ -24,7 +24,7 @@ div{
     color: rgb(33, 83, 25);
     position:absolute;
     background-color: rgb(236, 193, 220);
-    margin-top: -35px;
+    margin-top: 10px;
    margin-bottom: 40px;
    margin-left: 350px;
 }
@@ -52,7 +52,7 @@ position: absolute;
 }
 body{
 background-color: rgb(122, 234, 217);
-background-image: url('./../bird.avif');
+background-image: url('../boy.avif');
 
 }
 img{
