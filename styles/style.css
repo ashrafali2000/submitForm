@@ -24,9 +24,9 @@ div{
     color: rgb(33, 83, 25);
     position:absolute;
     background-color: rgb(236, 193, 220);
-    margin-top: 5px;
+    margin-top: -35px;
    margin-bottom: 40px;
-   margin-left: 200px;
+   margin-left: 350px;
 }
 /* for single selector */
 span{
