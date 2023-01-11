@@ -52,6 +52,7 @@ position: absolute;
 }
 body{
 background-color: rgb(122, 234, 217);
+background-image: url('./../bird.avif');
 
 }
 img{
