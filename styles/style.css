@@ -5,22 +5,22 @@ label{
     position: absolute;
     width: 300px;
     font-size: 20px;
-    margin-top: 180px;
+    margin-top: 200px;
 margin-left: 50px; 
 }
 /* for type selector */
  input,select{
     position: absolute;
     font-size: 20px;
-    margin-left: 300px;
-    margin-top: 160px;
+    margin-left: 250px;
+    margin-top: 180px;
     background-color: honeydew;
     color: green;
 }
 /* for single selector */
 div{
-    height: 760px;
-    width: 600px;
+    height: 780px;
+    width: 570px;
     color: rgb(180, 222, 12);
     position:absolute;
     background-color: rgb(105, 120, 232);
@@ -32,16 +32,16 @@ div{
 span{
 position: absolute;
     font-size: 20px;
-    margin-left: 320px;
-    margin-top: 155px;
+    margin-left: 275px;
+    margin-top: 175px;
  
 } 
 /* for single class */
 .button{
     position: absolute;
     /* background-color: aqua !important;  it has higher priority */
-    margin-left: 40px;
-    margin-top: 80px;
+    margin-left: 20px;
+    margin-top: 120px;
     background-color: rgb(105, 120, 232);
     width: 200px;
     height: 150px;
