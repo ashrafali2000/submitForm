@@ -1,0 +1,61 @@
+/* The following code for About page */
+
+/* for single selector */
+label{
+    position: absolute;
+    width: 300px;
+    font-size: 20px;
+    margin-top: 180px;
+margin-left: 50px; 
+}
+/* for type selector */
+ input,select{
+    position: absolute;
+    font-size: 20px;
+    margin-left: 300px;
+    margin-top: 160px;
+    background-color: honeydew;
+    color: green;
+}
+/* for single selector */
+div{
+    height: 760px;
+    width: 600px;
+    color: rgb(180, 222, 12);
+    position:absolute;
+    background-color: rgb(105, 120, 232);
+    margin-top: 30px;
+   margin-bottom: 40px;
+   margin-left: 100px;
+}
+/* for single selector */
+span{
+position: absolute;
+    font-size: 20px;
+    margin-left: 320px;
+    margin-top: 155px;
+ 
+} 
+/* for single class */
+.button{
+    position: absolute;
+    /* background-color: aqua !important;  it has higher priority */
+    margin-left: 40px;
+    margin-top: 80px;
+    background-color: rgb(105, 120, 232);
+    width: 200px;
+    height: 150px;
+}
+/* For Universal Selector */
+*{
+    font-weight: bold;
+}
+body{
+background-color: rgb(255, 208, 20);
+}
+img{
+    position:absolute;
+    border-style: dashed;
+    margin:5px 20px 40px 200px;
+    width: 120px;
+}

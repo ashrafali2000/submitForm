@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Fomm</title>
+    <link rel="stylesheet" href="./../submitForm/styles/style.css">
+</head>
+<body>
+     <h1>This is Contact Page of My Website</h1>
+    <a href="./index.html">Home Page</a>
+    <div>
+        <img src="./ashraf ali.jpg" alt="He is ashraf ali">
+    <form action="/ashraform" method="get">
+        <!-- Name -->
+        <label for="name">Enter  Name:</label><br>
+        <input type="text" name="Name" id="name"required placeholder="Enter name"><br>
+        <!-- Father Name -->
+        <label for="father_name">Enter Father Name:</label><br>
+        <input  type="text" name="Father_Name" id="father_name"required placeholder="Enter name"><br>
+        <!-- Age -->
+        <label for="age">Enter  Age:</label><br>
+        <input type="number" name="Age" id="age"required placeholder="Enter age"><br>
+        <!-- Gender -->
+        <label for="Male">Gender:</label><br>
+        <input  type="radio"name="Gender"value="Male"required><span >Male</span><br>
+        <input type="radio"name="Gender"value="Female"><span>Female</span><br>
+        <!-- Password -->
+        <label for="Password">Enter Password:</label><br>
+        <input type="password" name="Password" id="Password"required  placeholder="Enter password"><br>
+        <!-- E_mail -->
+        <label for="E-mail">Enter E_mail:</label><br>
+        <input type="email" name="E_mail" id="E-mail" required placeholder="Enter Email"><br>
+        <!-- Set date -->
+        <label for="date">Set date:</label><br>
+        <input type="date" name="Date" id="date"required><br>
+        <!-- Set month -->
+        <label for="month">Set Month:</label><br>
+        <input type="month" name="Month" id="month"required><br>
+        <!-- Set week -->
+        <label for="week">Set Week:</label><br>
+        <input type="week" name="Week" id="week"required><br>
+        <!-- Qualification -->
+        <label for="BSCS">Select Qualification:</label><br>
+        <select name="Qualificatio" id="BSCS"required>
+            <option value="Matric">Matric</option>
+            <option value="FSC">FSC</option>
+            <option value="BSC">BSCS</option>
+            <option value="Masters">Masters</option>
+            <option value="PhD">PhD</option>
+        </select><br>
+        <!-- Hobbies -->
+         <label for="cricket">Hobbies:</label><br>
+         <input type="checkbox"> <span>Cricket</span><br>
+         <input type="checkbox"checked><span> Football</span> <br>
+         <input type="checkbox"><span> Houcky</span> <br>
+         <input type="checkbox"><span> Wallyball</span> <br>
+         <input type="checkbox"> <span> Movies</span> <br>
+         <input type="checkbox"><span> Gaming</span> <br>
+         <input type="checkbox"><span> Others..</span> 
+         <input class="button" type="image"src="./login10.png"name="submit" id="login">
+    </form>
+</div>
+</body>
+</html>
