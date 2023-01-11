@@ -21,9 +21,9 @@ margin-left: 50px;
 div{
     height: 780px;
     width: 570px;
-    color: rgb(12, 222, 75);
+    color: rgb(33, 83, 25);
     position:absolute;
-    background-color: rgb(231, 172, 209);
+    background-color: rgb(236, 193, 220);
     margin-top: 5px;
    margin-bottom: 40px;
    margin-left: 200px;
@@ -42,7 +42,7 @@ position: absolute;
     /* background-color: aqua !important;  it has higher priority */
     margin-left: 20px;
     margin-top: 120px;
-    background-color: rgb(231, 172, 209);
+    background-color: rgb(236, 193, 220);
     width: 200px;
     height: 150px;
 }
