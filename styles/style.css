@@ -24,9 +24,10 @@ div{
     color: rgb(33, 83, 25);
     position:absolute;
     background-color: rgb(236, 193, 220);
-    margin-top: 10px;
+    margin-top: -10px;
    margin-bottom: 40px;
-   margin-left: 350px;
+   margin-left: 300px;
+   border-radius: 60px;
 }
 /* for single selector */
 span{
@@ -40,7 +41,7 @@ position: absolute;
 .button{
     position: absolute;
     /* background-color: aqua !important;  it has higher priority */
-    margin-left: 20px;
+    margin-left: 35px;
     margin-top: 120px;
     background-color: rgb(236, 193, 220);
     width: 200px;
